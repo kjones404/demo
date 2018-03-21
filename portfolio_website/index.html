@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js" async></script>
+    <title>Project: Build a Portfolio Website</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="logo">
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/kodiak_grey_medium.jpg">
+          <img src="img/kodiak_grey_small.jpg" alt="kodiak logo">
+        </picture>
+      </div>
+      <div class="name">
+        <h1>Kenneth Jones</h1>
+        <p>Front End Ninja</p>
+      </div>
+    </header>
+    <main>
+      <picture>
+        <source media="(min-width: 650px)" srcset="img/main_l_2x.jpg 2x, img/main_l_1x.jpg">
+        <source media="(min-width: 450px)" srcset="img/main_m_2x.jpg 2x, img/main_m_1x.jpg">
+        <source media="(min-width: 300px)" srcset="img/main_s_2x.jpg 2x, img/main_s_1x.jpg">
+        <img src="img/main_xs_2x.jpg" alt="a awesome bear holding a welcome fish">
+      </picture>
+      <div class="title">
+        <h2>Featured Work</h2>
+      </div>
+      <div class="pwrap">
+        <article class="pcontainer">
+          <div class="project">
+            <h3>Moive Trailer Website</h3>
+            <img src="img/html_css_python.jpg" alt="this project uses html 5 css 3 and python 3">
+            <a href="https://github.com/kjones404/Project_Movie_Trailer_Website"><i class="fab fa-github-square"></i> GitHub Link Here</a>
+          </div>
+        </article>
+        <article class="pcontainer">
+          <div class="project">
+            <h3>Portfolio Website</h3>
+            <img src="img/html_css_js.jpg" alt="this project uses html 5 javascript and css 3">
+            <a href="https://github.com/kjones404/Project_Movie_Trailer_Website"><i class="fab fa-github-square"></i> GitHub Link Here</a>
+          </div>
+        </article>
+        <article class="pcontainer">
+          <div class="project">
+            <h3>Logs Analysis Project</h3>
+            <img src="img/vagrant_python_sql.jpg" alt="this project uses vagrant python and sql">
+            <a href="https://github.com/kjones404/"><i class="fab fa-github-square"></i> GitHub Link Here</a>
+          </div>
+        </article>
+        <article class="pcontainer">
+          <div class="project">
+            <h3>Item Catalog</h3>
+            <img src="img/json_oauth_python.jpg" alt="this project uses json o auth and python">
+            <a href="https://github.com/kjones404/"><i class="fab fa-github-square"></i> GitHub Link Here</a>
+          </div>
+        </article>
+        <article class="pcontainer">
+          <div class="project">
+            <h3>Neighborhood Map</h3>
+            <img src="img/ko_maps_js.jpg" alt="this project uses knockout google maps api and javascript">
+            <a href="https://github.com/kjones404/"><i class="fab fa-github-square"></i> GitHub Link Here</a>
+          </div>
+        </article>
+        <article class="pcontainer">
+          <div class="project">
+            <h3>Linux Server</h3>
+            <img src="img/linux_amazon_python.jpg" alt="this project uses linux amazon lightsail and python">
+            <a href="https://github.com/kjones404/"><i class="fab fa-github-square"></i> GitHub Link Here</a>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
