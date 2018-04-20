@@ -1,0 +1,200 @@
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+body {
+  max-width: 1120px;
+  border: 3px solid #222;
+  background-color: #eee;
+  margin: 20px auto 10px auto;
+}
+
+header {
+  width: 100%;
+  background-color: #28b;
+  border-bottom: 3px solid #222;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 4px 2px -2px #888;
+  color: #eee;
+}
+
+main {
+  font-family: 'Amatic SC', cursive;
+}
+
+footer {
+  width: 100%;
+  padding: 3px 0 3px 0;
+  color: #eee;
+  text-align: center;
+  background-color: #222;
+}
+
+h1 {
+  margin: 0 20px 0 20px;
+  font-family: 'Rock Salt', cursive;
+  font-weight: normal;
+  text-shadow: 2px 3px #222;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin: 5px auto 10px auto;
+  border: none;
+  background-color: #222;
+  font-family: 'Open Sans', sans-serif;
+  color: #eee;
+}
+
+/* Links */
+a.basic {
+  color: #222;
+  text-decoration: none;
+}
+
+a.basic:hover {
+  background-color: #222;
+  color: #eee;
+}
+
+a.basic:active {
+    background-color: #eee;
+}
+
+a.hamburger {
+  color: #222;
+  text-decoration: none;
+}
+
+a.hamburger:hover {
+  color: #eee;
+}
+
+a.foot {
+  color: #eee;
+  text-decoration: none;
+}
+
+a.foot:hover {
+  color: #f47;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Header */
+.titleBox {
+  text-align: right;
+  margin: 0 30px 5px 0;
+}
+
+.subTitle {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5em;
+  position: relative;
+  bottom: 15px;
+}
+
+.hamburger {
+  float: left;
+  padding-left: 10px;
+  font-size: 1.75em;
+  display: block;
+}
+
+/* Sidebar */
+#sidebar {
+  position: relative;
+  left: 0;
+  width: 250px;
+}
+
+#sidebar.active {
+  position: absolute;
+  overflow: hidden;
+  left: -99999;
+  color: #eee;
+  background-color: #eee;
+  color: #eee;
+  width: 0px;
+  height: 0px;
+}
+
+.left {
+  height: 570px;
+  background-color: #cef;
+  color: #222;
+  padding: 20px 10px 20px 5px;
+  overflow-x: hidden;
+}
+
+.key {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pink {
+  background-color: #e6a;
+}
+
+.blue {
+  background-color: #6dd;
+}
+
+.orange {
+  background-color: #f90;
+}
+
+.green {
+  background-color: #0e5;
+}
+
+.list {
+  margin: 10px auto 20px auto;
+}
+
+.listItem {
+  display: block;
+  font-weight: bold;
+  margin: 3px auto 3px auto;
+
+}
+
+/* Map */
+.right {
+  background-color: #eee;
+  width: 100%;
+  height: 600px;
+}

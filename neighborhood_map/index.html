@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Family day - Find A Place to Play</title>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Amatic+SC|Open+Sans" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="titleBox">
+        <h1>Family day</h1><span class="subTitle">Find A Place to Play</span>
+        <a href="#" class="hamburger" onclick="toggleSidebar()"><i class="fas fa-bars"></i></a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="flex">
+      <div id="sidebar" class="left">
+        <div clss="search">
+          <h2>What are you looking for?</h2>
+          <div class="dropdown">
+            <select data-bind="options: filter, value: selectedFilter"></select>
+          </div>
+          <div class="key">
+            <div class="pink"><i class="fas fa-utensils"></i> Food</div>
+            <div class="blue"><i class="fas fa-film"></i> Movies</div>
+            <div class="orange"><i class="fas fa-gamepad"></i> Arcades</div>
+            <div class="green"><i class="fas fa-leaf"></i> Parks</div>
+          </div>
+        </div>
+        <div class="list">
+          <h2>Select A Place to Play:</h2>
+          <ul data-bind="foreach: dataList">
+            <a href="#" class="basic listItem" data-bind="text: title, click: $parent.setPop, visible: show">How did you break the sidebar?</a>
+          </ul>
+        </div>
+      </div>
+      <div id="map" class="right">
+        <span>Congratulations! You Broke It.</span>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a class="foot" href="https://foursquare.com/">Location Data Provided by <i class="fab fa-foursquare"></i> Foursquare</a>
+  </footer>
+  <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-3.0.0.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPrVVZH6Xr1NuGm4P8XX2EcTDMYJG-PEU&callback=initMap" async defer></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
