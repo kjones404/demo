@@ -5,7 +5,6 @@ var marker;
 
 // load map
 function initMap() {
-
     // map presets
     var mapOptions = {
         zoom: 11,
@@ -24,12 +23,12 @@ function initMap() {
         alert("Google doesn't want to play!");
     }
 
-
     // loop through data to assign values for markers
     for (i = 0; i < data.length; i++) {
         var position = data[i].latlong;
         var icon = data[i].iconImg;
         var title = data[i].locTitle;
+        var content = data[i].content;
 
         // create markers
         marker = new google.maps.Marker({
@@ -37,6 +36,7 @@ function initMap() {
             position: position,
             icon: icon,
             title: title,
+            content: content,
             animation: google.maps.Animation.DROP
         });
 
@@ -45,7 +45,7 @@ function initMap() {
 
         // set width of pop up window
         var infoWindow = new google.maps.InfoWindow({
-            maxWidth: 125
+            maxWidth: 160
         });
 
         // add click event to bounce and pop up info window
@@ -68,44 +68,35 @@ function initMap() {
             var self = this
 
             this.title = marker.title;
-            this.pos = String(marker.position);
-            this.index = this.pos.indexOf(",");
-            this.lat = this.pos.slice(1, (this.index - 1));
-            this.lng = this.pos.slice((this.index + 2), -1);
-            this.id = "";
+            this.id = marker.content;
             this.address = "";
             this.photo = "";
 
             // foursquare auth info
-            var id = "GW3JTNSLU2DU0RLSBMVCHMJ3251CJHYWVFUTXKBWURDCDY3I";
-            var secret = "0VCSTSOSU4TQTUEMLHWACVCYBELTAJIO4RPP0DWMORQ52OKZ";
+            var cid = "GW3JTNSLU2DU0RLSBMVCHMJ3251CJHYWVFUTXKBWURDCDY3I";
+            var csecret = "0VCSTSOSU4TQTUEMLHWACVCYBELTAJIO4RPP0DWMORQ52OKZ";
 
             // first query to get location id
-            var firstURL = "https://api.foursquare.com/v2/venues/search?ll=" + this.lat + "," + this.lng + "&client_id=" + id + "&client_secret=" + secret + "&v=20180419";
+            var finalURL = "https://api.foursquare.com/v2/venues/" + self.id + "?&client_id=" + cid + "&client_secret=" + csecret + "&v=20180419";
 
-            $.getJSON(firstURL).done(function(query) {
-                var info = query.response.venues[0];
-                self.id = info.id;
+            $.getJSON(finalURL).done(function(query) {
+                var info = query.response.venue;
+                self.address = info.location.address;
+                self.photo = "https://igx.4sqi.net/img/general/100x100" + info.bestPhoto.suffix;
 
-                // second query to use location id and pull photo data
-                var finalURL = "https://api.foursquare.com/v2/venues/" + self.id + "?&client_id=" + id + "&client_secret=" + secret + "&v=20180419";
-
-                $.getJSON(finalURL).done(function(query) {
-                    var info = query.response.venue;
-                    self.address = info.location.address;
-                    self.photo = "https://igx.4sqi.net/img/general/100x100" + info.bestPhoto.suffix;
-
+                if (this.address === "undefined") {
+                    infoWindow.setContent('<div class="flex"><div class="text"><h3>' + self.title + '</h3>' + "Address not available" + '<img src="' + self.photo + '">');
+                    infoWindow.open(map, marker);
+                } else {
                     // style info window
                     infoWindow.setContent('<div class="flex"><div class="text"><h3>' + self.title + '</h3>' + self.address + '<img src="' + self.photo + '">');
                     infoWindow.open(map, marker);
-                });
+                }
                 // error pop up if this breaks
             }).fail(function() {
                 alert("Unable to find Foursquare location data!");
             });
         }
-
-
     };
     // enable use of variables from the viewModel
     ko.applyBindings(vm);
@@ -114,13 +105,13 @@ function initMap() {
 
 var ViewModel = function() {
     var self = this;
-
     // build locations from data.js
     var Location = function(data) {
         this.position = data.latlong;
         this.icon = data.iconImg;
         this.title = data.locTitle;
         this.type = data.type;
+        this.content = data.content;
         this.show = ko.observable(true);
     };
 

@@ -4,8 +4,8 @@ var data = [{
             lng: -98.5075
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
-        locTitle: "Otaku Cafe",
-        content: "Video arcade in Castle Hills, Texas",
+        locTitle: "Rik Ric Otaku Cafe",
+        content: "54bac2f5498e9dd85f3900e9",
         type: "Arcades"
     },
     {
@@ -15,7 +15,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
         locTitle: "Diversions Game Room",
-        content: "Video arcade in San Antonio, Texas",
+        content: "4bbe9139b083a593ee4ba2e9",
         type: "Arcades"
     },
     {
@@ -25,17 +25,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
         locTitle: "Slackers Sports Bar",
-        content: "Sports-bar trappings meet up with classic arcade games at this kitschy, themed watering hole.",
-        type: "Arcades"
-    },
-    {
-        latlong: {
-            lat: 29.4350341,
-            lng: -98.5503858
-        },
-        iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
-        locTitle: "Dave & Buster's",
-        content: "Family-friendly chain offering a sports-bar-style setting for American food & arcade games.",
+        content: "51a4fa32498e347330d7b6f8",
         type: "Arcades"
     },
     {
@@ -45,7 +35,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
         locTitle: "Main Event Entertainment",
-        content: "Family entertainment complex with bowling, billiards, laser tag, an arcade, eatery & bar.",
+        content: "4dff778fae605b47b175b064",
         type: "Arcades"
     },
     {
@@ -54,8 +44,8 @@ var data = [{
             lng: -98.6227677
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
-        locTitle: "Main Event Entertainment",
-        content: "Lively, kid-oriented chain featuring pizza & wings along with token-play arcade games.",
+        locTitle: "Peter Piper Pizza",
+        content: "4bdb26d02a3a0f4743a9adb6",
         type: "Arcades"
     },
     {
@@ -65,7 +55,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
         locTitle: "Slackers Sports Bar",
-        content: "Sports-bar trappings meet up with classic arcade games at this kitschy, themed watering hole.",
+        content: "57070613498e3d3df97f9ee4",
         type: "Arcades"
     },
     {
@@ -75,18 +65,8 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/orange-dot.png",
         locTitle: "Brunswick Zone",
-        content: "Bowling alley chain featuring billiards, arcade games & snacks; some locations offer laser tag.",
+        content: "4b4905edf964a5207f6226e3",
         type: "Arcades"
-    },
-    {
-        latlong: {
-            lat: 29.4692,
-            lng: -98.6743
-        },
-        iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
-        locTitle: "Viola's Ventanas",
-        content: "Spacious, airy eatery serving upscale Mexican cuisine in an old-world setting with outdoor seating.",
-        type: "Food"
     },
     {
         latlong: {
@@ -95,7 +75,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "Blanco BBQ",
-        content: "Substantial portions of smoked meat & familiar sides, served in rustic environs, with a drive-thru.",
+        content: "51e42bb4498e6dfbd10e2f4d",
         type: "Food"
     },
     {
@@ -105,7 +85,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "Two Bros. BBQ Market",
-        content: "Casual BBQ spot serving oak-smoked meats & homey sides in a kid-friendly setting with a play yard.",
+        content: "4b11d2b5f964a5206d8523e3",
         type: "Food"
     },
     {
@@ -115,7 +95,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "Tycoon Flats",
-        content: "Kid-friendly burger joint & beer garden with Tex-Mex grub, a full bar, craft brews & live music.",
+        content: "4ae244f3f964a520a28c21e3",
         type: "Food"
     },
     {
@@ -125,7 +105,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "Cerroni's Purple Garlic",
-        content: "Thin-crust pizza, pasta & other Italian staples served in a simple dining room or on the patio.",
+        content: "4af60783f964a520540022e3",
         type: "Food"
     },
     {
@@ -135,7 +115,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "La Hacienda de Los Barrios",
-        content: "Tex-Mex eatery offering puffy tacos & margaritas in bright digs with live music & a patio.",
+        content: "4b58d624f964a520d46d28e3",
         type: "Food"
     },
     {
@@ -145,7 +125,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "Incredible Pizza Company",
-        content: "Lively pizza buffet with pasta, tacos & desserts, plus arcade games & carnival-style indoor rides.",
+        content: "4b3f9ba9f964a52040aa25e3",
         type: "Food"
     },
     {
@@ -155,7 +135,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "MoMak's Backyard Malts & Burgers",
-        content: "Signature burgers (including a veggie variety), salads & beer in a relaxed setting with a play yard.",
+        content: "4b6dd463f964a520c8932ce3",
         type: "Food"
     },
     {
@@ -165,18 +145,8 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/pink-dot.png",
         locTitle: "Big'z Burger Joint",
-        content: "Kid-friendly spot offering gourmet burgers, fries, shakes & beer, with outdoor dining & a play yard.",
+        content: "4b242b10f964a520bd6224e3",
         type: "Food"
-    },
-    {
-        latlong: {
-            lat: 29.5611,
-            lng: -98.5860
-        },
-        iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
-        locTitle: "Regal Fiesta Stadium 16",
-        content: "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
-        type: "Movies"
     },
     {
         latlong: {
@@ -185,7 +155,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Regal Cielo Vista Stadium 18",
-        content: "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
+        content: "4b096680f964a520c21623e3",
         type: "Movies"
     },
     {
@@ -195,7 +165,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Casa Blanca",
-        content: "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
+        content: "56fbe690498eb326227d8101",
         type: "Movies"
     },
     {
@@ -205,7 +175,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Silverado 16",
-        content: "Art-house movie theater with a full food & drink menu, plus table seating & wait service.",
+        content: "4b062e3bf964a52085e922e3",
         type: "Movies"
     },
     {
@@ -215,7 +185,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Regal Huebner Oaks Stadium 14 & RPX",
-        content: "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
+        content: "4fbbfdd1e4b083d188a31e75",
         type: "Movies"
     },
     {
@@ -225,7 +195,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Cinemark Movies 16",
-        content: "Chain of movie theaters, some with multiple screens, stadium seats & self-service ticketing kiosks.",
+        content: "4b0ed392f964a5209a5b23e3",
         type: "Movies"
     },
     {
@@ -235,7 +205,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Northwest 14",
-        content: "Art-house movie theater with a full food & drink menu, plus table seating & wait service.",
+        content: "4bb3ee09bd4b9c748d2732f5",
         type: "Movies"
     },
     {
@@ -245,7 +215,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Palladium IMAX",
-        content: "Art-house movie theater with a full food & drink menu, plus table seating & wait service.",
+        content: "4ad90e88f964a5209c1721e3",
         type: "Movies"
     },
     {
@@ -255,7 +225,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Bijou Cinema",
-        content: "Art-house movie theater with a full food & drink menu, plus table seating & wait service.",
+        content: "4b0abfe5f964a520452723e3",
         type: "Movies"
     },
     {
@@ -265,7 +235,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Regal Alamo Quarry Stadium 16",
-        content: "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
+        content: "4b10c07bf964a5205e7523e3",
         type: "Movies"
     },
     {
@@ -275,7 +245,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Embassy 14",
-        content: "Art-house movie theater with a full food & drink menu, plus table seating & wait service.",
+        content: "4ad4c000f964a520afeb20e3",
         type: "Movies"
     },
     {
@@ -285,7 +255,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Mayan Palace 14",
-        content: "Stylish theater chain for new & classic films features cocktails & creative bites served seat-side.",
+        content: "4b778984f964a52072a02ee3",
         type: "Movies"
     },
     {
@@ -294,8 +264,8 @@ var data = [{
             lng: -98.4854
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
-        locTitle: "AMC Rivercenter 11",
-        content: "Renovated AMC multiplex in Rivercenter Mall with new releases & reclining seats plus a cafe & bar.",
+        locTitle: "AMC Rivercenter 9",
+        content: "4ba4e4def964a520ecbf38e3",
         type: "Movies"
     },
     {
@@ -305,7 +275,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Regal Live Oak Stadium 18",
-        content: "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
+        content: "4ad4c000f964a520b0eb20e3",
         type: "Movies"
     },
     {
@@ -315,7 +285,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Santikos Rialto",
-        content: "Art-house movie theater with a full food & drink menu, plus table seating & wait service.",
+        content: "4ad4c000f964a520aeeb20e3",
         type: "Movies"
     },
     {
@@ -325,7 +295,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "City Base Cinema 10",
-        content: "Independently owned multiplex with Sony 4K digital projection, leather seats, food & a full bar.",
+        content: "4ee80de92c5b49765df18bee",
         type: "Movies"
     },
     {
@@ -335,7 +305,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/ltblue-dot.png",
         locTitle: "Cinemark McCreless Market",
-        content: "Chain of movie theaters, some with multiple screens, stadium seats & self-service ticketing kiosks.",
+        content: "4b86a247f964a5205b9331e3",
         type: "Movies"
     },
     {
@@ -345,7 +315,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "O. P. Schnabel Park",
-        content: "O. P. Schnabel Park is a 202-acre city park in the City of San Antonio, Texas. The park includes buildings for the YMCA program, ball fields, a basketball court, and several trails",
+        content: "4bbd0b25593fef3b52fb0256",
         type: "Parks"
     },
     {
@@ -355,7 +325,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Nani Falcone Community Park",
-        content: "Park featuring a mile-long walking trail that leads past playgrounds & a disc-golf course.",
+        content: "4c118b9072caa593b8c55da4",
         type: "Parks"
     },
     {
@@ -365,7 +335,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Bamberger Nature Park",
-        content: "This tree-filled natural area offers trails for hiking & cycling, plus a playground.",
+        content: "4b894992f964a520b12832e3",
         type: "Parks"
     },
     {
@@ -375,7 +345,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Oscar Perez Memorial Park",
-        content: "Oscar Perez park gives San Antonio parks an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors. ",
+        content: "4cbb42cc4c60a0939fff4aca",
         type: "Parks"
     },
     {
@@ -385,7 +355,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Denman Estate Park",
-        content: "Denman Estate Park is the name of a city park located in northwest San Antonio. ",
+        content: "4d4595f3fcb7ba7a75759ef0",
         type: "Parks"
     },
     {
@@ -395,7 +365,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Hardberger Park",
-        content: "Hardberger Park is a public city park of San Antonio, Texas which opened in May 2010",
+        content: "5117dd3be4b046a90a4b0d89",
         type: "Parks"
     },
     {
@@ -405,7 +375,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Crownridge Canyon Park",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
+        content: "4bd21f41a8b3a5931531675f",
         type: "Parks"
     },
     {
@@ -414,8 +384,8 @@ var data = [{
             lng: -98.6007
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
-        locTitle: "Gilbert Garza Park",
-        content: "Local recreation area with sports fields & courts, a seasonal swimming pool & trails.",
+        locTitle: "Garza Park",
+        content: "4d8a942199c2a1cd484994d7",
         type: "Parks"
     },
     {
@@ -425,7 +395,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Friedrich Wilderness Park",
-        content: "Friedrich Wilderness Park lies at the southern end of the Texas Hill Country. The park is hilly due to its location on the Balcones escarpment that separates the Texas Hill Country from the flat South Texas region.",
+        content: "4ad4bffef964a520f8ea20e3",
         type: "Parks"
     },
     {
@@ -435,7 +405,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Dellview Park",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
+        content: "4be74f73cf200f474a90153c",
         type: "Parks"
     },
     {
@@ -445,7 +415,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Brackenridge Park",
-        content: "Brackenridge Park is a 343-acre public park in San Antonio, Texas, USA, on the city's Broadway Corridor just north of downtown San Antonio. It was created in 1899 from land donated to the city by George Washington Brackenridge.",
+        content: "4ad4bffef964a520f7ea20e3",
         type: "Parks"
     },
     {
@@ -455,7 +425,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "San Pedro Springs Park",
-        content: "San Pedro Springs Park is located in the Bexar County city of San Antonio in the U.S. state of Texas. Surrounding the source of the springs, the 46-acre park is the oldest in the state of Texas.",
+        content: "4b6df12cf964a520b99d2ce3",
         type: "Parks"
     },
     {
@@ -464,18 +434,8 @@ var data = [{
             lng: -98.6064
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
-        locTitle: "Levi Strauss Park",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
-        type: "Parks"
-    },
-    {
-        latlong: {
-            lat: 29.4237,
-            lng: -98.5714
-        },
-        iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
-        locTitle: "Cuellar Park",
-        content: "This 27-acre park boasts a swimming pool, ball fields, tennis courts, play areas & fitness stations.",
+        locTitle: "Levi Strauss Park & Trailhead",
+        content: "51a793b4498ea0265421d054",
         type: "Parks"
     },
     {
@@ -485,7 +445,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "McAllister Park",
-        content: "Natural area with jogging & biking trails, picnic spots, a dog park, playscapes & athletic fields.",
+        content: "4ad4bffef964a520feea20e3",
         type: "Parks"
     },
     {
@@ -494,8 +454,8 @@ var data = [{
             lng: -98.4725
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
-        locTitle: "Dignowity Park",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
+        locTitle: "Lockwood Park",
+        content: "5060ff96e4b03f5199f3660f",
         type: "Parks"
     },
     {
@@ -505,17 +465,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Comanche Park",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
-        type: "Parks"
-    },
-    {
-        latlong: {
-            lat: 29.3474,
-            lng: -98.5580
-        },
-        iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
-        locTitle: "Golden Community Park",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
+        content: "4c41f3196c1a952194b3b96a",
         type: "Parks"
     },
     {
@@ -525,7 +475,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Hemisfair",
-        content: "Iconic park housing Tower of the Americas, Institute of Texan Cultures, fountains & a playground.",
+        content: "4b29437af964a520ef9b24e3",
         type: "Parks"
     },
     {
@@ -535,7 +485,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Comanche Lookout Park",
-        content: "Scenic park with a vantage point, playground, picnicking areas & trails for hiking",
+        content: "4b649520f964a52089bf2ae3",
         type: "Parks"
     },
     {
@@ -545,17 +495,7 @@ var data = [{
         },
         iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
         locTitle: "Friesenhahn Park",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
+        content: "4c58b94b2091a59317565bd0",
         type: "Parks"
     },
-    {
-        latlong: {
-            lat: 29.4824,
-            lng: -98.4804
-        },
-        iconImg: "https://maps.google.com/mapfiles/ms/micons/green-dot.png",
-        locTitle: "Olmos Basin",
-        content: "San Antonio parks give people an opportunity to spend time enjoying the outdoors, with fresh air, sunshine and exercise on  tap for visitors.",
-        type: "Parks"
-    }
 ];
